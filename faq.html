@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0F0F0F">
+
+  <title>FAQ | Ink House Media — Frequently Asked Questions</title>
+  <meta name="description" content="Everything you need to know about working with Ink House Media — pricing, timelines, revisions, file formats, rights, and more.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="FAQ | Ink House Media">
+  <meta property="og:description" content="Everything you need to know about working with Ink House Media.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-cover.jpg">
+  <meta property="og:site_name" content="Ink House Media">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="FAQ | Ink House Media">
+  <meta name="twitter:description" content="Everything you need to know.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23C1272D'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-size='18' font-weight='700' fill='white'%3EIH%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- ============================================================
+       WELCOME POPUP — Two-step
+       ============================================================ -->
+  <div class="popup" id="welcomePopup" role="dialog" aria-modal="true" aria-labelledby="popupTitle1" hidden>
+
+    <!-- ============ STEP 1 ============ -->
+    <div class="popup__modal" id="popupStep1">
+      <button class="popup__close" type="button" aria-label="Close" data-popup-close>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="popup__steps">
+        <div class="popup__step-dot active"></div>
+        <div class="popup__step-dot"></div>
+      </div>
+
+      <div class="popup__body">
+        <span class="eyebrow eyebrow--center">Welcome to Ink House Media</span>
+        <h2 class="popup__title" id="popupTitle1">
+          We Turn Books Into <em>Cinematic Experiences</em>
+        </h2>
+        <p class="popup__lead">
+          Here's a quick look at who we work with, the genres we love, and the languages we produce in.
+        </p>
+
+        <div class="popup__audience">
+
+          <div class="popup__col">
+            <div class="popup__col-head">
+              <div class="popup__col-icon" aria-hidden="true">✍️</div>
+              <h4>Who We Work With</h4>
+            </div>
+            <div class="popup__tags">
+              <span class="popup__tag">Indie Authors</span>
+              <span class="popup__tag">Trad-Pub Authors</span>
+              <span class="popup__tag">Debut Writers</span>
+              <span class="popup__tag">Bestselling Authors</span>
+              <span class="popup__tag">Small Publishers</span>
+              <span class="popup__tag">Literary Agents</span>
+            </div>
+          </div>
+
+          <div class="popup__col">
+            <div class="popup__col-head">
+              <div class="popup__col-icon" aria-hidden="true">📚</div>
+              <h4>Genres We Cover</h4>
+            </div>
+            <div class="popup__tags">
+              <span class="popup__tag">Fantasy</span>
+              <span class="popup__tag">Sci-Fi</span>
+              <span class="popup__tag">Thriller</span>
+              <span class="popup__tag">Mystery</span>
+              <span class="popup__tag">Romance</span>
+              <span class="popup__tag">Non-Fiction</span>
+              <span class="popup__tag">Memoir</span>
+              <span class="popup__tag">Children's</span>
+              <span class="popup__tag">YA</span>
+              <span class="popup__tag">Horror</span>
+              <span class="popup__tag">Historical</span>
+            </div>
+          </div>
+
+          <div class="popup__col">
+            <div class="popup__col-head">
+              <div class="popup__col-icon" aria-hidden="true">🌍</div>
+              <h4>Languages We Produce In</h4>
+            </div>
+            <div class="popup__langs">
+              <span class="popup__lang"><span>🇬🇧</span> English</span>
+              <span class="popup__lang"><span>🇪🇸</span> Spanish</span>
+              <span class="popup__lang"><span>🇫🇷</span> French</span>
+              <span class="popup__lang"><span>🇩🇪</span> German</span>
+              <span class="popup__lang"><span>🇵🇹</span> Portuguese</span>
+              <span class="popup__lang"><span>🇮🇹</span> Italian</span>
+              <span class="popup__lang"><span>🇸🇦</span> Arabic</span>
+              <span class="popup__lang"><span>🇳🇱</span> Dutch</span>
+              <span class="popup__lang"><span>🇨🇳</span> Chinese</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="popup__actions">
+          <button type="button" class="btn btn--primary btn--lg" data-popup-next>
+            Continue →
+          </button>
+          <a href="portfolio.html" class="btn btn--ghost btn--lg">
+            See Our Work
+          </a>
+        </div>
+
+        <button type="button" class="popup__skip" data-popup-close>
+          Skip for now
+        </button>
+      </div>
+    </div>
+
+    <!-- ============ STEP 2 ============ -->
+    <div class="popup__modal popup__modal--dark" id="popupStep2" style="display:none;">
+      <button class="popup__close" type="button" aria-label="Close" data-popup-close>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="popup__steps">
+        <div class="popup__step-dot"></div>
+        <div class="popup__step-dot active"></div>
+      </div>
+
+      <div class="popup__body">
+        <span class="popup__discount-badge">Limited-Time Offer</span>
+        <h2 class="popup__title">
+          Save <em>20%</em> On Any Combo Package
+        </h2>
+
+        <div class="popup__discount">20<sup>%</sup></div>
+
+        <p class="popup__lead">
+          Bundle a cinematic book trailer with a full email marketing campaign — and save up to <strong style="color:#fff;">$300</strong> on your launch.
+        </p>
+
+        <div class="popup__coupon" aria-label="Coupon code">
+          <span>USE CODE:</span>
+          <strong id="couponCode">COMBO20</strong>
+          <button type="button" class="popup__coupon-copy" data-copy-coupon>Copy</button>
+        </div>
+
+        <p class="popup__meta">
+          Valid through <strong id="promoExpiry">the end of this month</strong>. Mention the code when you get in touch.
+        </p>
+
+        <div class="popup__actions">
+          <a href="services.html#combos" class="btn btn--primary btn--lg">
+            Claim This Offer →
+          </a>
+          <a href="contact.html" class="btn btn--ghost btn--lg">
+            Talk to Us
+          </a>
+        </div>
+
+        <button type="button" class="popup__skip" data-popup-close>
+          No thanks
+        </button>
+      </div>
+    </div>
+
+  </div>
+  <!-- ============================================================
+       /WELCOME POPUP
+       ============================================================ -->
+
+  <!-- ============================================================
+       ANNOUNCEMENT BAR
+       ============================================================ -->
+  <div class="announce">
+    <span>🎬 <strong>Book Campaigns:</strong> Get <strong>20% off</strong> our combo packages this month</span>
+    <a href="services.html">Order Now →</a>
+  </div>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Ink House Media — Home">
+        <span class="logo__mark">IH</span> Ink<span>House</span> Media
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+      <nav class="main-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Packages</a>
+        <a href="team.html">Our Team</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="contact.html" class="btn btn--primary btn--sm">Get a Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       PAGE BANNER
+       ============================================================ -->
+  <div class="page-banner">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span>FAQ</span>
+    </nav>
+    <h1>Frequently Asked <em style="color:var(--crimson); font-style:italic;">Questions</em></h1>
+    <p>Everything you need to know before working with us. Can't find your answer? Reach out any time — we reply within 24 hours.</p>
+  </div>
+
+  <!-- ============================================================
+       CATEGORY JUMP LINKS
+       ============================================================ -->
+  <section class="section--paper section--tight">
+    <div class="container">
+      <div class="filter-tabs reveal" style="margin-bottom: 0;">
+        <a href="#faq-general">General</a>
+        <a href="#faq-process">Process &amp; Timeline</a>
+        <a href="#faq-pricing">Pricing &amp; Payment</a>
+        <a href="#faq-deliverables">Deliverables &amp; Rights</a>
+        <a href="#faq-genres">Genres &amp; Languages</a>
+        <a href="#faq-support">Support &amp; Revisions</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CATEGORY 1 — GENERAL
+       ========================================================================== -->
+  <section class="section--paper" id="faq-general" style="padding-top: 0;">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Category 01</span>
+        <h2 class="section-title reveal">General <em>Questions</em></h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">What exactly does Ink House Media do?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>We're a creative production studio for authors and publishers. We produce <strong>cinematic book trailers</strong>, <strong>author branding kits</strong>, <strong>social media video assets</strong>, and <strong>full book launch campaigns</strong> including email marketing.</p>
+              <p>In short: we translate your book into motion and help you market it across every digital channel that matters.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Who do you typically work with?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Independent (indie) authors, traditionally published novelists, small publishers, and literary agents. We've worked with debut self-publishers and <em>New York Times</em> bestsellers alike — the scope scales, the standard doesn't.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Do you work with authors outside the US?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Absolutely. We're a remote-first studio and have delivered trailers for authors in over <strong>30 countries</strong>. We regularly produce content in English, Spanish, French, German, Portuguese, Arabic, and more.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">What makes Ink House Media different from other studios?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Three things: <strong>we actually read every book</strong>, <strong>we produce at a cinematic quality</strong> most studios reserve for film, and <strong>every trailer is engineered to drive measurable marketing results</strong> — not just look impressive.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">What if my book isn't finished yet?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>That's fine for teaser trailers. We can work from a detailed synopsis, early chapters, or your completed manuscript if you have one. For cinematic trailers, we recommend waiting until the manuscript is at least through the first edit so we can capture the story's voice accurately.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CATEGORY 2 — PROCESS & TIMELINE (DARK)
+       ========================================================================== -->
+  <section class="section--dark grain" id="faq-process">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal" style="color:var(--crimson-soft);">Category 02</span>
+        <h2 class="section-title reveal" style="color:#fff;">Process &amp; <em style="color:var(--crimson-soft);">Timeline</em></h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">How does the process work from start to finish?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p><strong style="color:#fff;">1. Intake.</strong> You share your manuscript, genre, goals, and vision through our quick form.</p>
+              <p><strong style="color:#fff;">2. Reading &amp; analysis.</strong> Our creative team reads your book and identifies the strongest hook and emotional beats.</p>
+              <p><strong style="color:#fff;">3. Recommendation.</strong> We propose the ideal trailer style, package, and creative direction.</p>
+              <p><strong style="color:#fff;">4. Script &amp; storyboard.</strong> We write a cinematic script and storyboard for your approval.</p>
+              <p><strong style="color:#fff;">5. Production.</strong> Motion graphics, sound design, voiceover, and editing.</p>
+              <p><strong style="color:#fff;">6. Review &amp; delivery.</strong> You review the first cut, we revise, then deliver final files in all formats.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">How long does it take to produce a book trailer?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>Timelines depend on the package:</p>
+              <p><strong style="color:#fff;">Teaser trailers:</strong> 5–7 business days</p>
+              <p><strong style="color:#fff;">Cinematic trailers:</strong> 10–14 business days</p>
+              <p><strong style="color:#fff;">Premium / animated trailers:</strong> 14–21 business days</p>
+              <p><strong style="color:#fff;">Combo &amp; full marketing:</strong> Scoped per project — typically 3–6 weeks total.</p>
+              <p>Rush delivery is available on request (+40% of package price).</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">Do I need to provide anything to get started?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>Just a few things:</p>
+              <p>• Your book (PDF, DOCX, or manuscript)</p>
+              <p>• Genre &amp; target audience</p>
+              <p>• Your cover art (if you have it)</p>
+              <p>• Any visual references you love</p>
+              <p>• Your author branding assets (if any)</p>
+              <p>We handle everything else — script, visuals, sound, voiceover, and delivery.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">How involved will I be in the process?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>As involved as you want to be. Some authors hand us the manuscript and let us run with it. Others want to approve every frame. We adapt to your style — and revision rounds are built into every package.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CATEGORY 3 — PRICING & PAYMENT
+       ========================================================================== -->
+  <section class="section--paper" id="faq-pricing">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Category 03</span>
+        <h2 class="section-title reveal">Pricing &amp; <em>Payment</em></h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">How much does a book trailer cost?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Teaser trailers start at <strong>$100</strong>. Cinematic trailers start at <strong>$200</strong>. Full combo packages (trailer + email campaign) start at <strong>$500</strong> and save up to 25%.</p>
+              <p>See the full breakdown on our <a href="services.html" style="color:var(--crimson); font-weight:600;">Packages page →</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">How does payment work?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>We take a <strong>50% deposit</strong> to begin work and the remaining 50% on final delivery. We accept all major credit cards, PayPal, and bank transfer.</p>
+              <p>Payment plans are available on combo and full marketing packages.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Do you offer refunds?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>The 50% deposit is non-refundable once production begins (it covers scripting, licensing, and initial edit). If you cancel before production starts, we refund the deposit minus a 10% administrative fee.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Can I upgrade my package later?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Absolutely. You can upgrade from Teaser to Cinematic or add Combo services at any point. We'll credit what you've already paid toward the upgrade.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Do you offer discounts for multi-book authors?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Yes. Series authors and multi-book launches receive <strong>10–20% off</strong> when booking 3 or more trailers. Reach out for a custom series quote.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Is there a discount running right now?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Yes — this month we're running <strong>20% off all combo packages</strong>. Mention "Combo20" in your inquiry to lock in the discount.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CATEGORY 4 — DELIVERABLES & RIGHTS (DARK)
+       ========================================================================== -->
+  <section class="section--dark grain" id="faq-deliverables">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal" style="color:var(--crimson-soft);">Category 04</span>
+        <h2 class="section-title reveal" style="color:#fff;">Deliverables &amp; <em style="color:var(--crimson-soft);">Rights</em></h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">What formats will I receive?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>Depending on your package, you'll receive:</p>
+              <p><strong style="color:#fff;">• Vertical (9:16)</strong> — for TikTok, Reels, Shorts</p>
+              <p><strong style="color:#fff;">• Square (1:1)</strong> — for Facebook &amp; Instagram feed</p>
+              <p><strong style="color:#fff;">• Horizontal (16:9)</strong> — for YouTube, website hero, email</p>
+              <p>All exports are delivered in high-bitrate MP4 (H.264) for universal compatibility.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">Can I use the trailer on social media?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>Absolutely — that's the point. Every trailer is delivered ready to post across TikTok, Instagram, Facebook, X, YouTube, your website, and email. No re-exporting or resizing needed.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">Who owns the trailer — me or Ink House Media?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p><strong style="color:#fff;">You do.</strong> On final payment, you own full commercial rights to the trailer. You can post it anywhere, run it as paid ads, embed it on your site, and use it for any commercial purpose — forever, worldwide.</p>
+              <p>We retain the right to display the trailer in our portfolio unless you ask us not to.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">Will the trailer work as a paid ad?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>Yes. All music and footage we use is fully licensed for commercial use — so you can run the trailer as a Facebook, Instagram, TikTok, or Amazon ad without any copyright issues.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">Do you keep the source files?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>We retain project source files for 12 months after delivery in case you need adjustments. If you want the raw project files delivered to you, add a "Source Files" add-on during intake.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CATEGORY 5 — GENRES & LANGUAGES
+       ========================================================================== -->
+  <section class="section--paper" id="faq-genres">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Category 05</span>
+        <h2 class="section-title reveal">Genres &amp; <em>Languages</em></h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">What genres do you work with?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>All of them. We've produced trailers for <strong>fantasy, thrillers, romance, sci-fi, non-fiction, memoirs, children's books, historical fiction, horror, and YA</strong>. Every trailer is custom-built for your genre's audience and tone.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Can you produce trailers in other languages?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Yes. We currently produce in <strong>English, Spanish, French, German, Portuguese, Italian, Arabic, Dutch, and Chinese</strong>. Additional languages are available on request.</p>
+              <p>Language localization (subtitles + voiceover) starts at $80 per language.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Do you provide voiceover talent?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Yes — professional male or female narration in any language we support. Voiceover is included in Teaser Premium, Cinematic Standard, and Cinematic Premium packages. It can be added to any other package.</p>
+              <p>You can also request an audition of 2–3 voice options before we commit.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">What if my book is a children's picture book?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Children's books often work best with <strong>animation services</strong> — we can animate your existing illustrations or create new animated scenes. We adjust pacing, music, and voiceover to suit young readers.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CATEGORY 6 — SUPPORT & REVISIONS (DARK)
+       ========================================================================== -->
+  <section class="section--dark grain" id="faq-support">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal" style="color:var(--crimson-soft);">Category 06</span>
+        <h2 class="section-title reveal" style="color:#fff;">Support &amp; <em style="color:var(--crimson-soft);">Revisions</em></h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">Do you offer revisions?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>Yes. Standard packages include 1–3 revision rounds, and Premium packages include unlimited revisions during the review phase. Additional revision rounds can be added at any time for a small fee.</p>
+              <p>A "revision round" means a consolidated list of changes you submit as a single pass — not one change at a time.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">What if I don't like the first cut?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>Let us know specifically what's not working. We share a first cut precisely so we can align on direction before locking everything in. Most "don't like it" reactions are solved in a single revision round once we understand the mismatch.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">What if I need a change after delivery?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>Minor post-delivery tweaks (like fixing a typo or adjusting the end card) are usually free for 30 days after delivery. Larger changes are quoted as a small add-on.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">How do I contact you during a project?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>Every project gets a dedicated client manager and a shared project workspace. You can reach your manager by email, WhatsApp, or scheduled video call — whichever you prefer.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item" style="border-color: var(--noir-line);">
+          <button class="faq-q" type="button" aria-expanded="false" style="color:#fff;">
+            <span class="faq-q__text">What if I need the trailer urgently?</span>
+            <span class="faq-q__icon" aria-hidden="true" style="border-color: var(--noir-line); color: #fff;"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner" style="color: var(--on-dark-muted);">
+              <p>Rush delivery is available on any package for <strong>+40% of the package price</strong>. We've delivered teaser trailers in 48 hours for authors facing sudden launch deadlines. Reach out and we'll tell you what's possible.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       STILL HAVE QUESTIONS CTA
+       ========================================================================== -->
+  <section>
+    <div class="container">
+      <div class="cta-banner grain reveal">
+        <span class="eyebrow eyebrow--center" style="color:var(--crimson-soft);">Still Have Questions?</span>
+        <h2>Let's Talk It Through</h2>
+        <p>Send us a message — we reply to every inquiry within 24 hours, usually much sooner.</p>
+        <div class="d-flex flex-wrap gap-14" style="justify-content:center;">
+          <a href="contact.html" class="btn btn--primary btn--lg">Contact Us →</a>
+          <a href="services.html" class="btn btn--ghost btn--lg">See Packages</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       QUICK LINKS
+       ============================================================ -->
+  <section class="section--paper section--tight">
+    <div class="container">
+      <div class="center mb-32">
+        <h3 class="section-title reveal" style="font-size:1.5rem;">Explore More</h3>
+      </div>
+      <div class="services-grid" style="max-width: 1000px; margin-inline:auto;">
+        <a href="portfolio.html" class="service-card reveal" style="text-decoration:none;">
+          <div class="service-card__icon" aria-hidden="true">🎬</div>
+          <h3>Portfolio</h3>
+          <p>See cinematic trailers we've produced for authors around the world.</p>
+        </a>
+        <a href="services.html" class="service-card reveal reveal--delay-1" style="text-decoration:none;">
+          <div class="service-card__icon" aria-hidden="true">💰</div>
+          <h3>Packages</h3>
+          <p>Compare our teaser, cinematic, and combo packages side by side.</p>
+        </a>
+        <a href="contact.html" class="service-card reveal reveal--delay-2" style="text-decoration:none;">
+          <div class="service-card__icon" aria-hidden="true">✉️</div>
+          <h3>Contact</h3>
+          <p>Request a free quote or custom scope for your book.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+
+    <div class="footer-cta">
+      <div class="container footer-cta__inner">
+        <div>
+          <h3>Ready to bring your book <em>to life</em>?</h3>
+          <p>Let's craft a cinematic first impression your readers won't scroll past.</p>
+        </div>
+        <div class="d-flex flex-wrap gap-14">
+          <a href="contact.html" class="btn btn--primary">Request a Quote →</a>
+          <a href="portfolio.html" class="btn btn--ghost">View Portfolio</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <a href="index.html" class="logo" aria-label="Ink House Media — Home">
+              <span class="logo__mark">IH</span> Ink<span>House</span> Media
+            </a>
+            <p>Cinematic book trailers, author branding, and marketing assets for modern writers. Trusted by 70+ authors worldwide since 2022.</p>
+
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+              <a href="#" aria-label="TikTok" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.66a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.09z"/></svg></a>
+              <a href="#" aria-label="YouTube" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a>
+              <a href="#" aria-label="Facebook" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+              <a href="#" aria-label="LinkedIn" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="team.html">Our Team</a>
+            <a href="faq.html">FAQ</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Services</h4>
+            <a href="services.html">Book Trailers</a>
+            <a href="services.html">Author Branding</a>
+            <a href="services.html">Social Media Assets</a>
+            <a href="services.html">Launch Campaigns</a>
+            <a href="services.html">Animation</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Get In Touch</h4>
+
+
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              <div>
+                <strong>WhatsApp (Official)</strong>
+                <a href="https://wa.me/13347554992" target="_blank" rel="noopener">+1 (334) 755-4992</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <strong>Studio</strong>
+                <span>Remote-first · Worldwide</span>
+              </div>
+            </div>
+
+            <div class="footer-newsletter">
+              <label for="footerEmail">Newsletter</label>
+              <form class="newsletter">
+                <input id="footerEmail" type="email" placeholder="Your email" required>
+                <button type="submit">Join</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <p>© <span data-year>2026</span> Ink House Media. All rights reserved. Crafted with 🎬 in the studio.</p>
+        <div class="legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

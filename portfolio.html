@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0F0F0F">
+
+  <title>Portfolio &amp; Services | Ink House Media — Cinematic Book Trailers</title>
+  <meta name="description" content="A detailed breakdown of every Ink House Media service — cinematic trailers, author branding, social assets, launch campaigns, animation, and full marketing — with real examples and how each one helps authors sell more books.">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Portfolio & Services | Ink House Media">
+  <meta property="og:description" content="Every service we offer, explained in full — plus cinematic showcase reels.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-cover.jpg">
+  <meta property="og:site_name" content="Ink House Media">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Portfolio & Services | Ink House Media">
+  <meta name="twitter:description" content="Every service we offer, explained in full.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23C1272D'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-size='18' font-weight='700' fill='white'%3EIH%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- ============================================================
+       WELCOME POPUP — Two-step
+       ============================================================ -->
+  <div class="popup" id="welcomePopup" role="dialog" aria-modal="true" aria-labelledby="popupTitle1" hidden>
+
+    <div class="popup__modal" id="popupStep1">
+      <button class="popup__close" type="button" aria-label="Close" data-popup-close>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="popup__steps">
+        <div class="popup__step-dot active"></div>
+        <div class="popup__step-dot"></div>
+      </div>
+
+      <div class="popup__body">
+        <span class="eyebrow eyebrow--center">Welcome to Ink House Media</span>
+        <h2 class="popup__title" id="popupTitle1">
+          We Turn Books Into <em>Cinematic Experiences</em>
+        </h2>
+        <p class="popup__lead">
+          Here's a quick look at who we work with, the genres we love, and the languages we produce in.
+        </p>
+
+        <div class="popup__audience">
+
+          <div class="popup__col">
+            <div class="popup__col-head">
+              <div class="popup__col-icon" aria-hidden="true">✍️</div>
+              <h4>Who We Work With</h4>
+            </div>
+            <div class="popup__tags">
+              <span class="popup__tag">Indie Authors</span>
+              <span class="popup__tag">Trad-Pub Authors</span>
+              <span class="popup__tag">Debut Writers</span>
+              <span class="popup__tag">Bestselling Authors</span>
+              <span class="popup__tag">Small Publishers</span>
+              <span class="popup__tag">Literary Agents</span>
+            </div>
+          </div>
+
+          <div class="popup__col">
+            <div class="popup__col-head">
+              <div class="popup__col-icon" aria-hidden="true">📚</div>
+              <h4>Genres We Cover</h4>
+            </div>
+            <div class="popup__tags">
+              <span class="popup__tag">Fantasy</span>
+              <span class="popup__tag">Sci-Fi</span>
+              <span class="popup__tag">Thriller</span>
+              <span class="popup__tag">Mystery</span>
+              <span class="popup__tag">Romance</span>
+              <span class="popup__tag">Non-Fiction</span>
+              <span class="popup__tag">Memoir</span>
+              <span class="popup__tag">Children's</span>
+              <span class="popup__tag">YA</span>
+              <span class="popup__tag">Horror</span>
+              <span class="popup__tag">Historical</span>
+            </div>
+          </div>
+
+          <div class="popup__col">
+            <div class="popup__col-head">
+              <div class="popup__col-icon" aria-hidden="true">🌍</div>
+              <h4>Languages We Produce In</h4>
+            </div>
+            <div class="popup__langs">
+              <span class="popup__lang"><span>🇬🇧</span> English</span>
+              <span class="popup__lang"><span>🇪🇸</span> Spanish</span>
+              <span class="popup__lang"><span>🇫🇷</span> French</span>
+              <span class="popup__lang"><span>🇩🇪</span> German</span>
+              <span class="popup__lang"><span>🇵🇹</span> Portuguese</span>
+              <span class="popup__lang"><span>🇮🇹</span> Italian</span>
+              <span class="popup__lang"><span>🇸🇦</span> Arabic</span>
+              <span class="popup__lang"><span>🇳🇱</span> Dutch</span>
+              <span class="popup__lang"><span>🇨🇳</span> Chinese</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="popup__actions">
+          <button type="button" class="btn btn--primary btn--lg" data-popup-next>
+            Continue →
+          </button>
+          <a href="portfolio.html" class="btn btn--ghost btn--lg">
+            See Our Work
+          </a>
+        </div>
+
+        <button type="button" class="popup__skip" data-popup-close>
+          Skip for now
+        </button>
+      </div>
+    </div>
+
+    <div class="popup__modal popup__modal--dark" id="popupStep2" style="display:none;">
+      <button class="popup__close" type="button" aria-label="Close" data-popup-close>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="popup__steps">
+        <div class="popup__step-dot"></div>
+        <div class="popup__step-dot active"></div>
+      </div>
+
+      <div class="popup__body">
+        <span class="popup__discount-badge">Limited-Time Offer</span>
+        <h2 class="popup__title">
+          Save <em>20%</em> On Any Combo Package
+        </h2>
+
+        <div class="popup__discount">20<sup>%</sup></div>
+
+        <p class="popup__lead">
+          Bundle a cinematic book trailer with a full email marketing campaign — and save up to <strong style="color:#fff;">$300</strong> on your launch.
+        </p>
+
+        <div class="popup__coupon" aria-label="Coupon code">
+          <span>USE CODE:</span>
+          <strong id="couponCode">COMBO20</strong>
+          <button type="button" class="popup__coupon-copy" data-copy-coupon>Copy</button>
+        </div>
+
+        <p class="popup__meta">
+          Valid through <strong id="promoExpiry">the end of this month</strong>. Mention the code when you get in touch.
+        </p>
+
+        <div class="popup__actions">
+          <a href="services.html#combos" class="btn btn--primary btn--lg">
+            Claim This Offer →
+          </a>
+          <a href="contact.html" class="btn btn--ghost btn--lg">
+            Talk to Us
+          </a>
+        </div>
+
+        <button type="button" class="popup__skip" data-popup-close>
+          No thanks
+        </button>
+      </div>
+    </div>
+
+  </div>
+  <!-- ============================================================
+       /WELCOME POPUP
+       ============================================================ -->
+
+  <!-- ============================================================
+       ANNOUNCEMENT BAR
+       ============================================================ -->
+  <div class="announce">
+    <span>🎬 <strong>Book Campaigns:</strong> Get <strong>20% off</strong> our combo packages this month</span>
+    <a href="services.html">Order Now →</a>
+  </div>
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Ink House Media — Home">
+        <span class="logo__mark">IH</span> Ink<span>House</span> Media
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+      <nav class="main-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Packages</a>
+        <a href="team.html">Our Team</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="contact.html" class="btn btn--primary btn--sm">Get a Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============================================================
+       PAGE BANNER
+       ============================================================ -->
+  <div class="page-banner">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span>Portfolio &amp; Services</span>
+    </nav>
+    <h1>Our Services &amp; <em style="color:var(--crimson); font-style:italic;">Cinematic Showreel</em></h1>
+    <p>Every service we offer — broken down in full. What it is, how it works, and exactly how it helps authors sell more books.</p>
+  </div>
+
+  <!-- ============================================================
+       JUMP LINKS
+       ============================================================ -->
+  <section class="section--paper" style="padding: 32px 0 8px;">
+    <div class="container">
+      <div class="filter-tabs reveal" style="margin-bottom: 32px;">
+        <a href="#s-trailers">Book Trailers</a>
+        <a href="#s-branding">Author Branding</a>
+        <a href="#s-social">Social Media Assets</a>
+        <a href="#s-launch">Launch Campaigns</a>
+        <a href="#s-animation">Animation</a>
+        <a href="#s-marketing">Full Marketing</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       SHOWCASE REEL — FILTERABLE GRID
+       ============================================================ -->
+  <section class="section--paper" style="padding-top: 24px;">
+    <div class="container">
+
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Showcase Reel</span>
+        <h2 class="section-title reveal">A Glimpse of <em>Our Work</em></h2>
+        <p class="section-sub reveal mx-auto">Filter by genre to preview how we translate each kind of story into motion.</p>
+      </div>
+
+      <div class="filter-tabs reveal" role="tablist" aria-label="Filter trailers by genre">
+        <button class="active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button data-filter="thriller" role="tab" aria-selected="false">Thriller &amp; Mystery</button>
+        <button data-filter="nonfiction" role="tab" aria-selected="false">Non-Fiction</button>
+        <button data-filter="fantasy" role="tab" aria-selected="false">Fantasy &amp; Sci-Fi</button>
+        <button data-filter="romance" role="tab" aria-selected="false">Romance</button>
+      </div>
+
+      <div class="video-grid">
+
+        <!-- 1 — The Buried by Melissa Grey -->
+        <div class="trailer-card reveal" data-genre="thriller" data-video="https://youtu.be/Y0bsjn9IAX8">
+          <div class="trailer-card__media">
+            <span class="rec-badge">Completed · 00:44</span>
+            <div class="trailer-card__play" aria-hidden="true">▶</div>
+          </div>
+          <div class="trailer-card__body">
+            <h3>The Buried</h3>
+            <p>by Melissa Grey</p>
+          </div>
+        </div>
+
+        <!-- 2 — From Stuck To Spiritually Reignited -->
+        <div class="trailer-card reveal reveal--delay-1" data-genre="nonfiction" data-video="https://youtu.be/TFGkfTWPA3U">
+          <div class="trailer-card__media">
+            <span class="rec-badge">Completed · 00:44</span>
+            <div class="trailer-card__play" aria-hidden="true">▶</div>
+          </div>
+          <div class="trailer-card__body">
+            <h3>From Stuck To Spiritually Reignited</h3>
+            <p>Spiritual Growth</p>
+          </div>
+        </div>
+
+        <!-- 3 — The Lord Is Mindful Of Us -->
+        <div class="trailer-card reveal reveal--delay-2" data-genre="nonfiction" data-video="https://youtu.be/LwoUCPkTu2g">
+          <div class="trailer-card__media">
+            <span class="rec-badge">Completed · 01:01</span>
+            <div class="trailer-card__play" aria-hidden="true">▶</div>
+          </div>
+          <div class="trailer-card__body">
+            <h3>The Lord Is Mindful Of Us</h3>
+            <p>Faith &amp; Inspiration</p>
+          </div>
+        </div>
+
+        <!-- 4 — The Power Of Perception -->
+        <div class="trailer-card reveal" data-genre="nonfiction" data-video="https://youtu.be/5qIMB1plS-Y">
+          <div class="trailer-card__media">
+            <span class="rec-badge">Completed · 00:44</span>
+            <div class="trailer-card__play" aria-hidden="true">▶</div>
+          </div>
+          <div class="trailer-card__body">
+            <h3>The Power Of Perception</h3>
+            <p>Self-Development</p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="center mt-48">
+        <p style="color:var(--ink-muted); margin-bottom:20px;">Want to see more? Reach out for our full private showreel.</p>
+        <a href="contact.html" class="btn btn--primary">Request Full Showreel →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SERVICE DEEP DIVE 1 — BOOK TRAILERS
+       ========================================================================== -->
+  <section class="section--cream" id="s-trailers">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Service 01</span>
+        <h2 class="section-title reveal">Book <em>Trailers</em></h2>
+        <p class="section-sub reveal mx-auto">The flagship service — cinematic short films that translate your story into motion and stop the scroll in under 3 seconds.</p>
+      </div>
+
+      <div class="reveal" style="max-width: 860px; margin-inline:auto; margin-bottom: 48px;">
+        <p class="section-sub mb-16" style="font-size:1.05rem;">
+          A book trailer is not a slideshow of your cover. It's a 30–90 second cinematic piece built like a film trailer — with pacing, tension, music, typography, and a clear emotional arc. It exists to do one job: make a viewer <em>feel</em> your book before they ever read a page.
+        </p>
+        <p class="section-sub">
+          We read your manuscript, identify the strongest hook, and build a trailer that sells the <em>feeling</em> of your story — the atmosphere, the conflict, the promise. Then we deliver it in every format you need so it can be deployed across TikTok, Reels, YouTube, your website, your email list, and paid ads.
+        </p>
+      </div>
+
+      <div class="why-grid" style="margin-bottom: 56px;">
+        <div class="why-card reveal">
+          <div class="why-card__icon" aria-hidden="true">🎬</div>
+          <h4>What You Get</h4>
+          <p>Script, storyboard, cinematic edit, licensed footage, sound design, voiceover (if included), on-screen typography, color grade, and multi-format exports (vertical, square, horizontal).</p>
+        </div>
+        <div class="why-card reveal reveal--delay-1">
+          <div class="why-card__icon" aria-hidden="true">⚙️</div>
+          <h4>How It Works</h4>
+          <p>You share your book and vision. We write a cinematic script and storyboard, produce the visuals and sound, send a first cut for review, revise, then deliver final files optimized for every platform.</p>
+        </div>
+        <div class="why-card reveal reveal--delay-2">
+          <div class="why-card__icon" aria-hidden="true">📈</div>
+          <h4>How It Helps Authors</h4>
+          <p>Video content is shared up to 1200% more than text. A trailer gives you a permanent, reusable marketing asset that increases engagement, grows your audience, and drives sales on every channel you use.</p>
+        </div>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-card__icon" aria-hidden="true">⚡</div>
+          <h3>Teaser Trailer</h3>
+          <p>15–60 seconds. Fast, atmospheric, mystery-driven. Perfect for social media hooks, pre-launch buzz, and paid ads.</p>
+        </div>
+        <div class="service-card reveal reveal--delay-1">
+          <div class="service-card__icon" aria-hidden="true">🎞️</div>
+          <h3>Cinematic Trailer</h3>
+          <p>45–90 seconds. Full story-driven production with narration, animation, and original score. Your flagship marketing asset.</p>
+        </div>
+        <div class="service-card reveal reveal--delay-2">
+          <div class="service-card__icon" aria-hidden="true">🔁</div>
+          <h3>Series Trailer</h3>
+          <p>For multi-book authors and trilogies — a single trailer that sells the entire series and builds long-term readership.</p>
+        </div>
+      </div>
+
+      <div class="center mt-48">
+        <a href="services.html#pricing" class="btn btn--primary">See Trailer Packages →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SERVICE DEEP DIVE 2 — AUTHOR BRANDING
+       ========================================================================== -->
+  <section class="section--paper" id="s-branding">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Service 02</span>
+        <h2 class="section-title reveal">Author <em>Branding</em></h2>
+        <p class="section-sub reveal mx-auto">Build an author identity as memorable as your stories — so readers recognize you instantly on any shelf.</p>
+      </div>
+
+      <div class="reveal" style="max-width: 860px; margin-inline:auto; margin-bottom: 48px;">
+        <p class="section-sub mb-16" style="font-size:1.05rem;">
+          Readers don't just fall in love with books — they fall in love with authors. Your brand is the visual and emotional signature that travels with every book you release, every post you publish, and every email you send.
+        </p>
+        <p class="section-sub">
+          We create a cohesive visual and editorial identity for authors: logo, color palette, typography, book cover templates, social media kit, and a style guide that keeps everything consistent across years and platforms.
+        </p>
+      </div>
+
+      <div class="why-grid" style="margin-bottom: 56px;">
+        <div class="why-card reveal">
+          <div class="why-card__icon" aria-hidden="true">✒️</div>
+          <h4>What You Get</h4>
+          <p>Author logo or wordmark, brand color palette, typography system, book cover template, social media templates, email signature, and a brand guide PDF.</p>
+        </div>
+        <div class="why-card reveal reveal--delay-1">
+          <div class="why-card__icon" aria-hidden="true">⚙️</div>
+          <h4>How It Works</h4>
+          <p>We run a short brand discovery (genre, audience, tone, influences), then design 2–3 concept directions. You pick one, we refine it, and deliver a full brand kit with everything ready to use.</p>
+        </div>
+        <div class="why-card reveal reveal--delay-2">
+          <div class="why-card__icon" aria-hidden="true">📈</div>
+          <h4>How It Helps Authors</h4>
+          <p>A strong author brand increases recognition, builds reader loyalty, and makes every future launch easier. It's the difference between "someone who wrote a book" and "an author with a following."</p>
+        </div>
+      </div>
+
+      <div class="center mt-48">
+        <a href="contact.html" class="btn btn--primary">Request Branding Consultation →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SERVICE DEEP DIVE 3 — SOCIAL MEDIA ASSETS
+       ========================================================================== -->
+  <section class="section--cream" id="s-social">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Service 03</span>
+        <h2 class="section-title reveal">Social Media <em>Assets</em></h2>
+        <p class="section-sub reveal mx-auto">Short-form, platform-native video content engineered for TikTok, Instagram Reels, YouTube Shorts, X, and Facebook.</p>
+      </div>
+
+      <div class="reveal" style="max-width: 860px; margin-inline:auto; margin-bottom: 48px;">
+        <p class="section-sub mb-16" style="font-size:1.05rem;">
+          One trailer is not enough. Modern authors need a steady stream of short-form content to stay visible. We package each trailer into a full content set — hooks, vertical cuts, text overlays, quote cards, and cover reveals — ready to post on a schedule.
+        </p>
+        <p class="section-sub">
+          Every asset is engineered for the algorithm: strong hook in the first 1.5 seconds, bold captions, native aspect ratios, and music that matches platform trends without copyright issues.
+        </p>
+      </div>
+
+      <div class="why-grid" style="margin-bottom: 56px;">
+        <div class="why-card reveal">
+          <div class="why-card__icon" aria-hidden="true">📱</div>
+          <h4>What You Get</h4>
+          <p>Up to 10 vertical cut-downs per trailer, 5–10 quote/teaser cards, cover reveal loop, author intro clip, and captions/subtitles ready for each platform.</p>
+        </div>
+        <div class="why-card reveal reveal--delay-1">
+          <div class="why-card__icon" aria-hidden="true">⚙️</div>
+          <h4>How It Works</h4>
+          <p>We start from your trailer (or a fresh cut), then design platform-native versions with the correct aspect ratio, safe areas, caption placement, and music. Delivered in a shared folder ready to schedule.</p>
+        </div>
+        <div class="why-card reveal reveal--delay-2">
+          <div class="why-card__icon" aria-hidden="true">📈</div>
+          <h4>How It Helps Authors</h4>
+          <p>Consistent short-form content is the single biggest driver of organic book discovery. Authors who post weekly see 3–5× more profile visits, follower growth, and click-throughs to their book pages.</p>
+        </div>
+      </div>
+
+      <div class="center mt-48">
+        <a href="contact.html" class="btn btn--primary">Get a Content Plan →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SERVICE DEEP DIVE 4 — LAUNCH CAMPAIGNS (DARK)
+       ========================================================================== -->
+  <section class="section--dark grain" id="s-launch">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal" style="color:var(--crimson-soft);">Service 04</span>
+        <h2 class="section-title reveal" style="color:#fff;">Book Launch <em style="color:var(--crimson-soft);">Campaigns</em></h2>
+        <p class="section-sub reveal mx-auto">A full pre-launch, launch-week, and post-launch strategy engineered to maximize day-one momentum and sustained sales.</p>
+      </div>
+
+      <div class="reveal" style="max-width: 860px; margin-inline:auto; margin-bottom: 48px;">
+        <p class="section-sub mb-16" style="font-size:1.05rem; color:var(--on-dark-muted);">
+          A launch is not a single day — it's a 4 to 6 week runway. Amazon's algorithm rewards books that spike in the first 48 hours after release, so a coordinated push is what gets you into "also bought" lists and category best-sellers.
+        </p>
+        <p class="section-sub" style="color:var(--on-dark-muted);">
+          We plan and produce the entire campaign: trailer, email sequence, social content, ad creative, press kit, and a launch schedule you can follow day by day.
+        </p>
+      </div>
+
+      <div class="combo-grid">
+        <div class="combo-card">
+          <h3>Pre-Launch</h3>
+          <div class="combo-price" style="font-size:1.6rem; color:var(--crimson-soft); margin-top: 14px;">Weeks −6 to −1</div>
+          <ul>
+            <li>Teaser trailer release</li>
+            <li>Email list warm-up sequence</li>
+            <li>ARC reader recruitment</li>
+            <li>Cover reveal post set</li>
+            <li>Pre-order push content</li>
+          </ul>
+        </div>
+
+        <div class="combo-card featured">
+          <h3>Launch Week</h3>
+          <div class="combo-price" style="font-size:1.6rem; margin-top: 14px;">Days 0 to 7</div>
+          <ul>
+            <li>Full trailer drop</li>
+            <li>Daily social content</li>
+            <li>Amazon ad creative set</li>
+            <li>Newsletter blast sequence</li>
+            <li>Review request funnel</li>
+          </ul>
+        </div>
+
+        <div class="combo-card">
+          <h3>Post-Launch</h3>
+          <div class="combo-price" style="font-size:1.6rem; color:var(--crimson-soft); margin-top: 14px;">Weeks +1 to +8</div>
+          <ul>
+            <li>Sustained content schedule</li>
+            <li>Reader community outreach</li>
+            <li>Review-driven ad refresh</li>
+            <li>Long-tail keyword content</li>
+            <li>Performance reporting</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="center mt-48">
+        <a href="contact.html" class="btn btn--primary">Plan My Launch →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SERVICE DEEP DIVE 5 — ANIMATION
+       ========================================================================== -->
+  <section class="section--paper" id="s-animation">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Service 05</span>
+        <h2 class="section-title reveal">Animation <em>Services</em></h2>
+        <p class="section-sub reveal mx-auto">Custom animated sequences that bring characters, worlds, and concepts to life — for trailers, series intros, and animated shorts.</p>
+      </div>
+
+      <div class="reveal" style="max-width: 860px; margin-inline:auto; margin-bottom: 48px;">
+        <p class="section-sub mb-16" style="font-size:1.05rem;">
+          Sometimes live-action stock footage isn't enough. For fantasy, sci-fi, children's books, and complex non-fiction, custom animation gives you visuals that match your story exactly — no compromises, no "close enough" clips.
+        </p>
+        <p class="section-sub">
+          We produce 2D motion graphics, illustrated animation, character animation, and cinematic title sequences. Every frame is built from your book's world, not a template.
+        </p>
+      </div>
+
+      <div class="why-grid" style="margin-bottom: 56px;">
+        <div class="why-card reveal">
+          <div class="why-card__icon" aria-hidden="true">🎞️</div>
+          <h4>What You Get</h4>
+          <p>Custom animated sequences, illustrated scenes, animated typography, character motion, and full integration into your trailer or as standalone animated shorts.</p>
+        </div>
+        <div class="why-card reveal reveal--delay-1">
+          <div class="why-card__icon" aria-hidden="true">⚙️</div>
+          <h4>How It Works</h4>
+          <p>We storyboard each animated beat, design the visual style (matching your book's tone), then animate, composite, and integrate with sound design and music.</p>
+        </div>
+        <div class="why-card reveal reveal--delay-2">
+          <div class="why-card__icon" aria-hidden="true">📈</div>
+          <h4>How It Helps Authors</h4>
+          <p>Animation makes your story instantly recognizable and shareable. It's especially powerful for children's books, fantasy worlds, and any story where stock footage can't capture the world you built.</p>
+        </div>
+      </div>
+
+      <div class="center mt-48">
+        <a href="contact.html" class="btn btn--primary">Discuss Animation →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       SERVICE DEEP DIVE 6 — FULL MARKETING
+       ========================================================================== -->
+  <section class="section--cream" id="s-marketing">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Service 06</span>
+        <h2 class="section-title reveal">Full Book <em>Marketing</em></h2>
+        <p class="section-sub reveal mx-auto">An end-to-end marketing ecosystem — everything above, plus email, ads, community, and reporting — as a single managed service.</p>
+      </div>
+
+      <div class="reveal" style="max-width: 860px; margin-inline:auto; margin-bottom: 48px;">
+        <p class="section-sub mb-16" style="font-size:1.05rem;">
+          Some authors want the full machine — not just assets, but an ongoing marketing partner. Our Full Marketing service is designed for that: strategy, production, distribution, optimization, and reporting, all handled for you.
+        </p>
+        <p class="section-sub">
+          Ideal for series launches, established authors scaling up, and anyone who wants to focus on writing while we focus on visibility.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-card__icon" aria-hidden="true">🚀</div>
+          <h3>Strategy &amp; Positioning</h3>
+          <p>Genre analysis, reader persona mapping, competitive positioning, and a 90-day marketing roadmap.</p>
+        </div>
+        <div class="service-card reveal reveal--delay-1">
+          <div class="service-card__icon" aria-hidden="true">🎯</div>
+          <h3>Ads &amp; Creative</h3>
+          <p>Facebook, Instagram, TikTok, and Amazon ad creative — designed, tested, and rotated for performance.</p>
+        </div>
+        <div class="service-card reveal reveal--delay-2">
+          <div class="service-card__icon" aria-hidden="true">✉️</div>
+          <h3>Email Marketing</h3>
+          <p>List building, welcome sequences, launch funnels, and re-engagement campaigns written and designed for you.</p>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-card__icon" aria-hidden="true">👥</div>
+          <h3>Community Outreach</h3>
+          <p>ARC reader programs, Goodreads and Reddit engagement, book blogger and BookTok outreach.</p>
+        </div>
+        <div class="service-card reveal reveal--delay-1">
+          <div class="service-card__icon" aria-hidden="true">📊</div>
+          <h3>Reporting &amp; Optimization</h3>
+          <p>Monthly performance reports with clear KPIs, plus ongoing optimization across every channel.</p>
+        </div>
+        <div class="service-card reveal reveal--delay-2">
+          <div class="service-card__icon" aria-hidden="true">♾️</div>
+          <h3>Long-Term Growth</h3>
+          <p>Rolling quarterly campaigns designed to grow your catalogue, not just a single book.</p>
+        </div>
+      </div>
+
+      <div class="center mt-48">
+        <a href="contact.html" class="btn btn--primary">Book a Strategy Call →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FEATURED BOOKS — AUTO-ROTATING CAROUSEL
+       ============================================================ -->
+  <section class="section--paper">
+    <div class="container">
+      <div class="center mb-32">
+        <span class="eyebrow eyebrow--center reveal">Our Collection</span>
+        <h2 class="section-title reveal">Featured <em>Books</em></h2>
+        <p class="section-sub reveal mx-auto">A selection of stories we've had the honor to bring to the screen.</p>
+      </div>
+
+      <div class="book-carousel reveal" data-interval="5000" aria-label="Featured books carousel">
+        <div class="book-carousel__viewport">
+          <div class="book-carousel__track">
+
+            <div class="book-carousel__item" data-title="The Buried">
+              <div style="width:100%; height:100%; background:linear-gradient(160deg,#4a1220,#0d0d0d);"></div>
+            </div>
+
+            <div class="book-carousel__item" data-title="From Stuck To Spiritually Reignited">
+              <div style="width:100%; height:100%; background:linear-gradient(160deg,#1f3a4a,#0d0d0d);"></div>
+            </div>
+
+            <div class="book-carousel__item" data-title="The Lord Is Mindful Of Us">
+              <div style="width:100%; height:100%; background:linear-gradient(160deg,#3a2a12,#0d0d0d);"></div>
+            </div>
+
+            <div class="book-carousel__item" data-title="The Power Of Perception">
+              <div style="width:100%; height:100%; background:linear-gradient(160deg,#2a1a3a,#0d0d0d);"></div>
+            </div>
+
+            <div class="book-carousel__item" data-title="The Shadow Crown">
+              <div style="width:100%; height:100%; background:linear-gradient(160deg,#123a2a,#0d0d0d);"></div>
+            </div>
+
+            <div class="book-carousel__item" data-title="Letters to August">
+              <div style="width:100%; height:100%; background:linear-gradient(160deg,#3a122a,#0d0d0d);"></div>
+            </div>
+
+            <div class="book-carousel__item" data-title="King of Dust">
+              <div style="width:100%; height:100%; background:linear-gradient(160deg,#1a1a2a,#0d0d0d);"></div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="book-carousel__controls">
+          <button class="book-carousel__btn book-carousel__prev" aria-label="Previous slide" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          </button>
+
+          <div class="book-carousel__dots" role="tablist" aria-label="Slides"></div>
+
+          <button class="book-carousel__btn book-carousel__next" aria-label="Next slide" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          </button>
+        </div>
+
+        <div class="book-carousel__progress">
+          <div class="book-carousel__progress-bar"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS
+       ============================================================ -->
+  <section class="section--cream">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">What Authors Say</span>
+        <h2 class="section-title reveal">Results That <em>Speak</em></h2>
+      </div>
+
+      <div class="testimonial-grid">
+        <div class="testimonial reveal">
+          <p>"My trailer hit 240K views on TikTok in a week. Pre-orders tripled. Ink House Media gets it."</p>
+          <div class="author"><strong>Amara Ellison</strong><span>Indie Fantasy Author</span></div>
+        </div>
+        <div class="testimonial reveal reveal--delay-1">
+          <p>"The cinematic quality made my thriller look like a Netflix release. Absolutely worth every penny."</p>
+          <div class="author"><strong>Daniel Rhodes</strong><span>Traditionally Published Novelist</span></div>
+        </div>
+        <div class="testimonial reveal reveal--delay-2">
+          <p>"I finally have marketing assets I'm proud to share. The multi-format delivery saved me weeks."</p>
+          <div class="author"><strong>Priya Nair</strong><span>Romance Author</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FAQ
+       ============================================================ -->
+  <section class="section--paper">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Questions</span>
+        <h2 class="section-title reveal">Service <em>FAQs</em></h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Can I combine multiple services?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Yes — most authors do. Our combo packages bundle a trailer with email campaigns, and our Full Marketing service combines everything. Mix and match to fit your goals and budget.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Which service should I start with?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>For most authors, a <strong>book trailer</strong> is the highest-leverage starting point — it becomes the core asset every other service builds on. If you already have a trailer, social media assets or a launch campaign is usually the next best step.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Do you work with authors at every stage?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Yes. We work with debut self-published authors, established indie authors, traditionally published novelists, and small publishing houses. The scope scales — the standard doesn't.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Can I request a custom package?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a">
+            <div class="faq-a__inner">
+              <p>Absolutely. If none of our listed packages fit exactly what you need, tell us your goals and budget on the contact form — we'll build a custom scope that does.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CTA BANNER
+       ============================================================ -->
+  <section>
+    <div class="container">
+      <div class="cta-banner grain reveal">
+        <span class="eyebrow eyebrow--center" style="color:var(--crimson-soft);">Let's Get Started</span>
+        <h2>Not Sure Which Service You Need?</h2>
+        <p>Tell us about your book and goals — we'll recommend the right path in one short conversation.</p>
+        <div class="d-flex flex-wrap gap-14" style="justify-content:center;">
+          <a href="contact.html" class="btn btn--primary btn--lg">Book a Free Consultation →</a>
+          <a href="services.html" class="btn btn--ghost btn--lg">See Pricing</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer">
+
+    <div class="footer-cta">
+      <div class="container footer-cta__inner">
+        <div>
+          <h3>Ready to bring your book <em>to life</em>?</h3>
+          <p>Let's craft a cinematic first impression your readers won't scroll past.</p>
+        </div>
+        <div class="d-flex flex-wrap gap-14">
+          <a href="contact.html" class="btn btn--primary">Request a Quote →</a>
+          <a href="portfolio.html" class="btn btn--ghost">View Portfolio</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <a href="index.html" class="logo" aria-label="Ink House Media — Home">
+              <span class="logo__mark">IH</span> Ink<span>House</span> Media
+            </a>
+            <p>Cinematic book trailers, author branding, and marketing assets for modern writers. Trusted by 70+ authors worldwide since 2022.</p>
+
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+              <a href="#" aria-label="TikTok" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.66a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.09z"/></svg></a>
+              <a href="#" aria-label="YouTube" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a>
+              <a href="#" aria-label="Facebook" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+              <a href="#" aria-label="LinkedIn" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="team.html">Our Team</a>
+            <a href="faq.html">FAQ</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Services</h4>
+            <a href="#s-trailers">Book Trailers</a>
+            <a href="#s-branding">Author Branding</a>
+            <a href="#s-social">Social Media Assets</a>
+            <a href="#s-launch">Launch Campaigns</a>
+            <a href="#s-animation">Animation</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Get In Touch</h4>
+
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <div>
+                <strong>Email</strong>
+                <a href="mailto:hello@inkhousemedia.com">hello@inkhousemedia.com</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              <div>
+                <strong>WhatsApp (Official)</strong>
+                <a href="https://wa.me/13347554992" target="_blank" rel="noopener">+1 (334) 755-4992</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div>
+                <strong>Studio</strong>
+                <span>Remote-first · Worldwide</span>
+              </div>
+            </div>
+
+            <div class="footer-newsletter">
+              <label for="footerEmail">Newsletter</label>
+              <form class="newsletter">
+                <input id="footerEmail" type="email" placeholder="Your email" required>
+                <button type="submit">Join</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <p>© <span data-year>2026</span> Ink House Media. All rights reserved. Crafted with 🎬 in the studio.</p>
+        <div class="legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

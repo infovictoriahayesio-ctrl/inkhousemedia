@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0F0F0F">
+
+  <title>About Us | Ink House Media — Cinematic Book Trailers</title>
+  <meta name="description" content="Ink House Media is a creative production studio specializing in cinematic book trailers, author branding, and marketing assets. Trusted by 70+ authors worldwide since 2022.">
+
+  <meta property="og:title" content="About Ink House Media">
+  <meta property="og:description" content="We tell stories through film. Learn about the studio behind 100+ cinematic book trailers.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/images/og-cover.jpg">
+  <meta property="og:site_name" content="Ink House Media">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About Ink House Media">
+  <meta name="twitter:description" content="We tell stories through film.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23C1272D'/%3E%3Ctext x='50%25' y='54%25' text-anchor='middle' dominant-baseline='middle' font-family='Georgia,serif' font-size='18' font-weight='700' fill='white'%3EIH%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+
+  <!-- WELCOME POPUP -->
+  <div class="popup" id="welcomePopup" role="dialog" aria-modal="true" aria-labelledby="popupTitle1" hidden>
+
+    <div class="popup__modal" id="popupStep1">
+      <button class="popup__close" type="button" aria-label="Close" data-popup-close>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="popup__steps">
+        <div class="popup__step-dot active"></div>
+        <div class="popup__step-dot"></div>
+      </div>
+
+      <div class="popup__body">
+        <span class="eyebrow eyebrow--center">Welcome to Ink House Media</span>
+        <h2 class="popup__title" id="popupTitle1">
+          We Turn Books Into <em>Cinematic Experiences</em>
+        </h2>
+        <p class="popup__lead">
+          Here's a quick look at who we work with, the genres we love, and the languages we produce in.
+        </p>
+
+        <div class="popup__audience">
+
+          <div class="popup__col">
+            <div class="popup__col-head">
+              <div class="popup__col-icon" aria-hidden="true">✍️</div>
+              <h4>Who We Work With</h4>
+            </div>
+            <div class="popup__tags">
+              <span class="popup__tag">Indie Authors</span>
+              <span class="popup__tag">Trad-Pub Authors</span>
+              <span class="popup__tag">Debut Writers</span>
+              <span class="popup__tag">Bestselling Authors</span>
+              <span class="popup__tag">Small Publishers</span>
+              <span class="popup__tag">Literary Agents</span>
+            </div>
+          </div>
+
+          <div class="popup__col">
+            <div class="popup__col-head">
+              <div class="popup__col-icon" aria-hidden="true">📚</div>
+              <h4>Genres We Cover</h4>
+            </div>
+            <div class="popup__tags">
+              <span class="popup__tag">Fantasy</span>
+              <span class="popup__tag">Sci-Fi</span>
+              <span class="popup__tag">Thriller</span>
+              <span class="popup__tag">Mystery</span>
+              <span class="popup__tag">Romance</span>
+              <span class="popup__tag">Non-Fiction</span>
+              <span class="popup__tag">Memoir</span>
+              <span class="popup__tag">Children's</span>
+              <span class="popup__tag">YA</span>
+              <span class="popup__tag">Horror</span>
+              <span class="popup__tag">Historical</span>
+            </div>
+          </div>
+
+          <div class="popup__col">
+            <div class="popup__col-head">
+              <div class="popup__col-icon" aria-hidden="true">🌍</div>
+              <h4>Languages We Produce In</h4>
+            </div>
+            <div class="popup__langs">
+              <span class="popup__lang"><span>🇬🇧</span> English</span>
+              <span class="popup__lang"><span>🇪🇸</span> Spanish</span>
+              <span class="popup__lang"><span>🇫🇷</span> French</span>
+              <span class="popup__lang"><span>🇩🇪</span> German</span>
+              <span class="popup__lang"><span>🇵🇹</span> Portuguese</span>
+              <span class="popup__lang"><span>🇮🇹</span> Italian</span>
+              <span class="popup__lang"><span>🇸🇦</span> Arabic</span>
+              <span class="popup__lang"><span>🇳🇱</span> Dutch</span>
+              <span class="popup__lang"><span>🇨🇳</span> Chinese</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="popup__actions">
+          <button type="button" class="btn btn--primary btn--lg" data-popup-next>
+            Continue →
+          </button>
+          <a href="portfolio.html" class="btn btn--ghost btn--lg">
+            See Our Work
+          </a>
+        </div>
+
+        <button type="button" class="popup__skip" data-popup-close>
+          Skip for now
+        </button>
+      </div>
+    </div>
+
+    <div class="popup__modal popup__modal--dark" id="popupStep2" style="display:none;">
+      <button class="popup__close" type="button" aria-label="Close" data-popup-close>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+      </button>
+
+      <div class="popup__steps">
+        <div class="popup__step-dot"></div>
+        <div class="popup__step-dot active"></div>
+      </div>
+
+      <div class="popup__body">
+        <span class="popup__discount-badge">Limited-Time Offer</span>
+        <h2 class="popup__title">
+          Save <em>20%</em> On Any Combo Package
+        </h2>
+
+        <div class="popup__discount">20<sup>%</sup></div>
+
+        <p class="popup__lead">
+          Bundle a cinematic book trailer with a full email marketing campaign — and save up to <strong style="color:#fff;">$300</strong> on your launch.
+        </p>
+
+        <div class="popup__coupon" aria-label="Coupon code">
+          <span>USE CODE:</span>
+          <strong id="couponCode">COMBO20</strong>
+          <button type="button" class="popup__coupon-copy" data-copy-coupon>Copy</button>
+        </div>
+
+        <p class="popup__meta">
+          Valid through <strong id="promoExpiry">the end of this month</strong>. Mention the code when you get in touch.
+        </p>
+
+        <div class="popup__actions">
+          <a href="services.html#combos" class="btn btn--primary btn--lg">
+            Claim This Offer →
+          </a>
+          <a href="contact.html" class="btn btn--ghost btn--lg">
+            Talk to Us
+          </a>
+        </div>
+
+        <button type="button" class="popup__skip" data-popup-close>
+          No thanks
+        </button>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ANNOUNCEMENT -->
+  <div class="announce">
+    <span>🎬 <strong>Book Campaigns:</strong> Get <strong>20% off</strong> our combo packages this month</span>
+    <a href="services.html">Order Now →</a>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="index.html" class="logo" aria-label="Ink House Media — Home">
+        <span class="logo__mark">IH</span> Ink<span>House</span> Media
+      </a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+
+      <nav class="main-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="services.html">Packages</a>
+        <a href="team.html">Our Team</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-cta">
+        <a href="contact.html" class="btn btn--primary btn--sm">Get a Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- PAGE BANNER -->
+  <div class="page-banner">
+    <nav class="breadcrumbs" aria-label="Breadcrumb">
+      <a href="index.html">Home</a>
+      <span>About Us</span>
+    </nav>
+    <h1>We Tell Stories <em style="color:var(--crimson); font-style:italic;">Through Film</em></h1>
+    <p>Ink House Media is a creative production studio specializing in cinematic book trailers, author branding, and book marketing assets — trusted by authors from around the world since 2022.</p>
+  </div>
+
+  <!-- STORY SECTION -->
+  <section class="section--paper">
+    <div class="container" style="display:grid; grid-template-columns:1.1fr 1fr; gap:70px; align-items:center;">
+      <div class="reveal">
+        <span class="eyebrow">Our Story</span>
+        <h2 class="section-title">Where Literature <em>Meets Cinema</em></h2>
+        <p class="section-sub mb-16">
+          Ink House Media was founded in 2022 by passionate storytellers and filmmakers who
+          believed every book deserved a visual identity as compelling as the words on the page.
+        </p>
+        <p class="section-sub mb-16">
+          We noticed that independent authors — many with brilliant, cinematic stories — were
+          being buried under generic cover graphics and static promotional posts. Meanwhile,
+          major publishers were investing in video, dominating social feeds, and turning
+          passive scrollers into passionate readers.
+        </p>
+        <p class="section-sub mb-32">
+          So we built a studio that bridges the gap. We bring Hollywood-grade production values
+          to independent publishing — and we do it at a price that makes sense for authors.
+        </p>
+
+        <div class="d-flex flex-wrap gap-14">
+          <a href="portfolio.html" class="btn btn--primary">See Our Work →</a>
+          <a href="team.html" class="btn btn--ghost">Meet the Team</a>
+        </div>
+      </div>
+
+      <div class="reveal reveal--delay-1">
+        <div class="trailer-card" style="aspect-ratio: 4/5;">
+          <div class="trailer-card__media" style="aspect-ratio: 4/5;">
+            <span class="rec-badge">Studio · 2022</span>
+            <div class="trailer-card__play" aria-hidden="true">▶</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATS (DARK) -->
+  <section class="section--dark grain section--tight">
+    <div class="container">
+      <div class="center mb-32">
+        <span class="eyebrow eyebrow--center reveal" style="color:var(--crimson-soft);">By The Numbers</span>
+        <h2 class="section-title reveal" style="color:#fff;">A Studio Built on <em style="color:var(--crimson-soft);">Results</em></h2>
+      </div>
+
+      <div class="stats-row reveal reveal--delay-1" style="margin-bottom:0;">
+        <div class="stat"><div class="stat__num">70+</div><div class="stat__label" style="color:var(--on-dark-muted);">Projects Completed</div></div>
+        <div class="stat"><div class="stat__num">70+</div><div class="stat__label" style="color:var(--on-dark-muted);">Authors Served</div></div>
+        <div class="stat"><div class="stat__num">100+</div><div class="stat__label" style="color:var(--on-dark-muted);">Trailer Productions</div></div>
+        <div class="stat"><div class="stat__num">12M+</div><div class="stat__label" style="color:var(--on-dark-muted);">Views Generated</div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <section class="section--paper">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Our Mission</span>
+        <h2 class="section-title reveal">What We <em>Stand For</em></h2>
+        <p class="section-sub reveal mx-auto">Three principles guide every trailer we produce.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card reveal"><div class="why-card__icon" aria-hidden="true">📖</div><h4>Story First</h4><p>We read every book we work on. Every creative choice — from pacing to music — is in service of your story, not a template.</p></div>
+        <div class="why-card reveal reveal--delay-1"><div class="why-card__icon" aria-hidden="true">🎬</div><h4>Cinematic Craft</h4><p>We treat book trailers with the same care as film trailers. Color, sound, motion, and typography — every frame is intentional.</p></div>
+        <div class="why-card reveal reveal--delay-2"><div class="why-card__icon" aria-hidden="true">🤝</div><h4>Author Partnership</h4><p>You're not a client — you're a collaborator. We listen, iterate, and deliver assets you'll be proud to share.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE -->
+  <section class="section--cream">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Why Ink House</span>
+        <h2 class="section-title reveal">Why Authors <em>Choose Us</em></h2>
+        <p class="section-sub reveal mx-auto">Here's what sets us apart from other video production companies.</p>
+      </div>
+
+      <div class="why-grid">
+        <div class="why-card reveal"><div class="why-card__icon" aria-hidden="true">📚</div><h4>We Actually Read Your Book</h4><p>Every trailer starts with a deep understanding of your story — not a stock template.</p></div>
+        <div class="why-card reveal reveal--delay-1"><div class="why-card__icon" aria-hidden="true">🎥</div><h4>Cinematic Quality</h4><p>Hollywood-grade production values, from color grading to custom sound design.</p></div>
+        <div class="why-card reveal reveal--delay-2"><div class="why-card__icon" aria-hidden="true">🌍</div><h4>Multi-Language Support</h4><p>Trailers delivered in multiple languages to help you reach global readers.</p></div>
+        <div class="why-card reveal"><div class="why-card__icon" aria-hidden="true">⚡</div><h4>Fast Turnaround</h4><p>Most projects delivered in as little as 7 business days — without cutting corners.</p></div>
+        <div class="why-card reveal reveal--delay-1"><div class="why-card__icon" aria-hidden="true">🤝</div><h4>Dedicated Team</h4><p>You work with the same designers, editors, and producers from start to finish.</p></div>
+        <div class="why-card reveal reveal--delay-2"><div class="why-card__icon" aria-hidden="true">📈</div><h4>Marketing-Driven</h4><p>Every trailer is engineered to convert viewers into readers — not just look pretty.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="section--paper">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">How We Work</span>
+        <h2 class="section-title reveal">From Manuscript <em>to Motion</em></h2>
+        <p class="section-sub reveal mx-auto">Every project moves through the same six-step process — designed to keep you informed and in control.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step reveal"><span class="step__num">01</span><h4>Submit Your Book</h4><p>Share your manuscript, genre, and vision through our quick intake form.</p></div>
+        <div class="step reveal reveal--delay-1"><span class="step__num">02</span><h4>We Read &amp; Analyze</h4><p>Our team reads your book and identifies the strongest hooks and emotional beats.</p></div>
+        <div class="step reveal reveal--delay-2"><span class="step__num">03</span><h4>We Recommend a Trailer</h4><p>Based on genre and goals, we propose the ideal style, tone, and package.</p></div>
+        <div class="step reveal"><span class="step__num">04</span><h4>Script &amp; Storyboard</h4><p>We craft a cinematic script and storyboard tailored to your book's identity.</p></div>
+        <div class="step reveal reveal--delay-1"><span class="step__num">05</span><h4>Production</h4><p>Motion graphics, sound design, voiceover, and editing — assembled with precision.</p></div>
+        <div class="step reveal reveal--delay-2"><span class="step__num">06</span><h4>Final Delivery</h4><p>You receive the trailer in every format you need, optimized for each platform.</p></div>
+      </div>
+
+      <div class="center mt-48">
+        <a href="services.html" class="btn btn--primary">Explore Packages →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOUNDER QUOTE (DARK) — uses founder.jpeg -->
+  <section class="section--dark grain">
+    <div class="container">
+      <div class="reveal" style="max-width:900px; margin-inline:auto; text-align:center;">
+        <span class="eyebrow eyebrow--center" style="color:var(--crimson-soft);">A Note From Our Founder</span>
+        <p style="font-family:var(--font-display); font-size:clamp(1.4rem, 2.6vw, 2rem); line-height:1.45; color:#fff; margin:32px 0 40px; font-style:italic;">
+          "A great book trailer doesn't sell a plot — it sells a feeling. That's what we're in the business of doing: making readers feel the promise of your story in 60 seconds."
+        </p>
+
+        <div class="d-flex" style="justify-content:center; align-items:center; gap:16px; flex-wrap:wrap;">
+          <div style="width:64px; height:64px; border-radius:50%; overflow:hidden;">
+            <img src="founder.jpeg" alt="Founder" style="width:100%; height:100%; object-fit:cover;">
+          </div>
+          <div style="text-align:left;">
+            <div style="color:#fff; font-weight:700; font-size:1rem;">Madison Carter</div>
+            <div style="color:var(--on-dark-muted); font-size:0.85rem;">Founder &amp; Creative Director</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM PREVIEW — 4 CARDS, EXACT FILENAMES -->
+  <section class="section--paper">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">Our Team</span>
+        <h2 class="section-title reveal">Meet the <em>Creators</em></h2>
+        <p class="section-sub reveal mx-auto">Passionate storytellers, filmmakers, and marketing experts dedicated to bringing your book to life.</p>
+      </div>
+
+      <div class="team-grid">
+
+        <div class="team-card reveal">
+          <div class="team-card__photo">
+            <img src="founder.jpeg" alt="Founder &amp; Creative Director" loading="lazy">
+          </div>
+          <h4>Madison Carter</h4>
+          <p>Founder &amp; Creative Director</p>
+        </div>
+
+        <div class="team-card reveal reveal--delay-1">
+          <div class="team-card__photo">
+            <img src="co founder.jpg" alt="Co-Founder &amp; Client Manager" loading="lazy">
+          </div>
+          <h4>Amanda Brooks</h4>
+          <p>Co-Founder &amp; Client Manager</p>
+        </div>
+
+        <div class="team-card reveal reveal--delay-2">
+          <div class="team-card__photo">
+            <img src="head of production.jpeg" alt="Head of Production" loading="lazy">
+          </div>
+          <h4>Emily Hanson</h4>
+          <p>Head of Production</p>
+        </div>
+
+        <div class="team-card reveal reveal--delay-3">
+          <div class="team-card__photo">
+            <img src="videoeditor.jpeg" alt="Lead Video Editor" loading="lazy">
+          </div>
+          <h4>Rachel Anderson</h4>
+          <p>Lead Video Editor</p>
+        </div>
+
+      </div>
+
+      <div class="center mt-48">
+        <a href="team.html" class="btn btn--ghost">Meet the Full Team →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="section--cream">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">What Authors Say</span>
+        <h2 class="section-title reveal">Trusted by <em>Writers Worldwide</em></h2>
+      </div>
+
+      <div class="testimonial-grid">
+        <div class="testimonial reveal">
+          <p>"My trailer hit 240K views on TikTok in a week. Pre-orders tripled. Ink House Media gets it."</p>
+          <div class="author"><strong>Amara Ellison</strong><span>Indie Fantasy Author</span></div>
+        </div>
+        <div class="testimonial reveal reveal--delay-1">
+          <p>"The cinematic quality made my thriller look like a Netflix release. Absolutely worth every penny."</p>
+          <div class="author"><strong>Daniel Rhodes</strong><span>Traditionally Published Novelist</span></div>
+        </div>
+        <div class="testimonial reveal reveal--delay-2">
+          <p>"I finally have marketing assets I'm proud to share. The multi-format delivery saved me weeks."</p>
+          <div class="author"><strong>Priya Nair</strong><span>Romance Author</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section--paper">
+    <div class="container">
+      <div class="center mb-48">
+        <span class="eyebrow eyebrow--center reveal">FAQ</span>
+        <h2 class="section-title reveal">Frequently Asked <em>Questions</em></h2>
+      </div>
+
+      <div class="faq-list reveal">
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Who do you typically work with?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a"><div class="faq-a__inner">
+            <p>Independent (indie) authors and traditionally published authors, as well as small publishers and literary agents. We've worked with first-time self-publishers and <em>New York Times</em> bestsellers alike.</p>
+          </div></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">Do you work with authors outside the US?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a"><div class="faq-a__inner">
+            <p>Absolutely. We're a remote-first studio and have delivered trailers for authors in over 30 countries. Our team regularly produces content in English, Spanish, French, German, Portuguese, Arabic, and more.</p>
+          </div></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">How involved will I be in the process?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a"><div class="faq-a__inner">
+            <p>As involved as you want to be. Some authors hand us the manuscript and let us run with it. Others want to review every frame. We adapt to your style — and revision rounds are built into every package.</p>
+          </div></div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-q" type="button" aria-expanded="false">
+            <span class="faq-q__text">What makes Ink House Media different?</span>
+            <span class="faq-q__icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></span>
+          </button>
+          <div class="faq-a"><div class="faq-a__inner">
+            <p>Three things: we actually read every book, we produce at a cinematic quality most studios reserve for film, and every trailer is engineered to drive measurable marketing results — not just look impressive.</p>
+          </div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section>
+    <div class="container">
+      <div class="cta-banner grain reveal">
+        <span class="eyebrow eyebrow--center" style="color:var(--crimson-soft);">Let's Get Started</span>
+        <h2>Let's Bring Your Story to the Screen</h2>
+        <p>Tell us about your book — we'll take it from there.</p>
+        <div class="d-flex flex-wrap gap-14" style="justify-content:center;">
+          <a href="contact.html" class="btn btn--primary btn--lg">Request a Quote →</a>
+          <a href="portfolio.html" class="btn btn--ghost btn--lg">View Portfolio</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+
+    <div class="footer-cta">
+      <div class="container footer-cta__inner">
+        <div>
+          <h3>Ready to bring your book <em>to life</em>?</h3>
+          <p>Let's craft a cinematic first impression your readers won't scroll past.</p>
+        </div>
+        <div class="d-flex flex-wrap gap-14">
+          <a href="contact.html" class="btn btn--primary">Request a Quote →</a>
+          <a href="portfolio.html" class="btn btn--ghost">View Portfolio</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-main">
+      <div class="container">
+        <div class="footer-grid">
+
+          <div class="footer-brand">
+            <a href="index.html" class="logo" aria-label="Ink House Media — Home">
+              <span class="logo__mark">IH</span> Ink<span>House</span> Media
+            </a>
+            <p>Cinematic book trailers, author branding, and marketing assets for modern writers. Trusted by 70+ authors worldwide since 2022.</p>
+
+            <div class="footer-social">
+              <a href="#" aria-label="Instagram" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+              <a href="#" aria-label="TikTok" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5.8 20.1a6.34 6.34 0 0 0 10.86-4.43V8.66a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1.84-.09z"/></svg></a>
+              <a href="#" aria-label="YouTube" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/></svg></a>
+              <a href="#" aria-label="Facebook" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+              <a href="#" aria-label="LinkedIn" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg></a>
+            </div>
+          </div>
+
+          <div class="footer-col">
+            <h4>Quick Links</h4>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="team.html">Our Team</a>
+            <a href="faq.html">FAQ</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Services</h4>
+            <a href="services.html">Book Trailers</a>
+            <a href="services.html">Author Branding</a>
+            <a href="services.html">Social Media Assets</a>
+            <a href="services.html">Launch Campaigns</a>
+            <a href="services.html">Animation</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Get In Touch</h4>
+
+
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+              <div><strong>WhatsApp (Official)</strong><a href="https://wa.me/13347554992" target="_blank" rel="noopener">+1 (334) 755-4992</a></div>
+            </div>
+
+            <div class="footer-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <div><strong>Studio</strong><span>Remote-first · Worldwide</span></div>
+            </div>
+
+            <div class="footer-newsletter">
+              <label for="footerEmail">Newsletter</label>
+              <form class="newsletter">
+                <input id="footerEmail" type="email" placeholder="Your email" required>
+                <button type="submit">Join</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom__inner">
+        <p>© <span data-year>2026</span> Ink House Media. All rights reserved. Crafted with 🎬 in the studio.</p>
+        <div class="legal">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <button class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
