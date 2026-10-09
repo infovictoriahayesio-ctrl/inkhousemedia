@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <meta name="theme-color" content="#0F0F0F">
 
   <title>Portfolio &amp; Services | Ink House Media — Cinematic Book Trailers</title>
@@ -116,7 +116,7 @@
           <button type="button" class="btn btn--primary btn--lg" data-popup-next>
             Continue →
           </button>
-          <a href="portfolio.html" class="btn btn--ghost btn--lg">
+          <a href="#showcase" class="btn btn--ghost btn--lg">
             See Our Work
           </a>
         </div>
@@ -175,16 +175,13 @@
     </div>
 
   </div>
-  <!-- ============================================================
-       /WELCOME POPUP
-       ============================================================ -->
 
   <!-- ============================================================
        ANNOUNCEMENT BAR
        ============================================================ -->
   <div class="announce">
     <span>🎬 <strong>Book Campaigns:</strong> Get <strong>20% off</strong> our combo packages this month</span>
-    <a href="services.html">Order Now →</a>
+    <a href="services.html#combos">Order Now →</a>
   </div>
 
   <!-- ============================================================
@@ -232,6 +229,7 @@
   <section class="section--paper" style="padding: 32px 0 8px;">
     <div class="container">
       <div class="filter-tabs reveal" style="margin-bottom: 32px;">
+        <a href="#showcase">Showcase</a>
         <a href="#s-trailers">Book Trailers</a>
         <a href="#s-branding">Author Branding</a>
         <a href="#s-social">Social Media Assets</a>
@@ -245,7 +243,7 @@
   <!-- ============================================================
        SHOWCASE REEL — FILTERABLE GRID
        ============================================================ -->
-  <section class="section--paper" style="padding-top: 24px;">
+  <section class="section--paper" id="showcase" style="padding-top: 24px;">
     <div class="container">
 
       <div class="center mb-48">
@@ -258,8 +256,7 @@
         <button class="active" data-filter="all" role="tab" aria-selected="true">All</button>
         <button data-filter="thriller" role="tab" aria-selected="false">Thriller &amp; Mystery</button>
         <button data-filter="nonfiction" role="tab" aria-selected="false">Non-Fiction</button>
-        <button data-filter="fantasy" role="tab" aria-selected="false">Fantasy &amp; Sci-Fi</button>
-        <button data-filter="romance" role="tab" aria-selected="false">Romance</button>
+        <button data-filter="spiritual" role="tab" aria-selected="false">Spiritual</button>
       </div>
 
       <div class="video-grid">
@@ -277,7 +274,7 @@
         </div>
 
         <!-- 2 — From Stuck To Spiritually Reignited -->
-        <div class="trailer-card reveal reveal--delay-1" data-genre="nonfiction" data-video="https://youtu.be/TFGkfTWPA3U">
+        <div class="trailer-card reveal reveal--delay-1" data-genre="spiritual" data-video="https://youtu.be/TFGkfTWPA3U">
           <div class="trailer-card__media">
             <span class="rec-badge">Completed · 00:44</span>
             <div class="trailer-card__play" aria-hidden="true">▶</div>
@@ -289,7 +286,7 @@
         </div>
 
         <!-- 3 — The Lord Is Mindful Of Us -->
-        <div class="trailer-card reveal reveal--delay-2" data-genre="nonfiction" data-video="https://youtu.be/LwoUCPkTu2g">
+        <div class="trailer-card reveal reveal--delay-2" data-genre="spiritual" data-video="https://youtu.be/LwoUCPkTu2g">
           <div class="trailer-card__media">
             <span class="rec-badge">Completed · 01:01</span>
             <div class="trailer-card__play" aria-hidden="true">▶</div>
@@ -654,32 +651,40 @@
         <div class="book-carousel__viewport">
           <div class="book-carousel__track">
 
-            <div class="book-carousel__item" data-title="The Buried">
-              <div style="width:100%; height:100%; background:linear-gradient(160deg,#4a1220,#0d0d0d);"></div>
+            <div class="book-carousel__item" data-title="Book 1">
+              <img src="book 1.jpg" alt="Book 1" loading="lazy">
             </div>
 
-            <div class="book-carousel__item" data-title="From Stuck To Spiritually Reignited">
-              <div style="width:100%; height:100%; background:linear-gradient(160deg,#1f3a4a,#0d0d0d);"></div>
+            <div class="book-carousel__item" data-title="Book 2">
+              <img src="book 2.jpg" alt="Book 2" loading="lazy">
             </div>
 
-            <div class="book-carousel__item" data-title="The Lord Is Mindful Of Us">
-              <div style="width:100%; height:100%; background:linear-gradient(160deg,#3a2a12,#0d0d0d);"></div>
+            <div class="book-carousel__item" data-title="Book 3">
+              <img src="book 3.jpg" alt="Book 3" loading="lazy">
             </div>
 
-            <div class="book-carousel__item" data-title="The Power Of Perception">
-              <div style="width:100%; height:100%; background:linear-gradient(160deg,#2a1a3a,#0d0d0d);"></div>
+            <div class="book-carousel__item" data-title="Book 4">
+              <img src="book 4.jpg" alt="Book 4" loading="lazy">
             </div>
 
-            <div class="book-carousel__item" data-title="The Shadow Crown">
-              <div style="width:100%; height:100%; background:linear-gradient(160deg,#123a2a,#0d0d0d);"></div>
+            <div class="book-carousel__item" data-title="Book 5">
+              <img src="book 5.jpg" alt="Book 5" loading="lazy">
             </div>
 
-            <div class="book-carousel__item" data-title="Letters to August">
-              <div style="width:100%; height:100%; background:linear-gradient(160deg,#3a122a,#0d0d0d);"></div>
+            <div class="book-carousel__item" data-title="Book 6">
+              <img src="book 6.jpg" alt="Book 6" loading="lazy">
             </div>
 
-            <div class="book-carousel__item" data-title="King of Dust">
-              <div style="width:100%; height:100%; background:linear-gradient(160deg,#1a1a2a,#0d0d0d);"></div>
+            <div class="book-carousel__item" data-title="Book 7">
+              <img src="book 7.jpg" alt="Book 7" loading="lazy">
+            </div>
+
+            <div class="book-carousel__item" data-title="Book 8">
+              <img src="book 8.jpg" alt="Book 8" loading="lazy">
+            </div>
+
+            <div class="book-carousel__item" data-title="Book 9">
+              <img src="book 9.jpg" alt="Book 9" loading="lazy">
             </div>
 
           </div>
@@ -717,15 +722,24 @@
       <div class="testimonial-grid">
         <div class="testimonial reveal">
           <p>"My trailer hit 240K views on TikTok in a week. Pre-orders tripled. Ink House Media gets it."</p>
-          <div class="author"><strong>Amara Ellison</strong><span>Indie Fantasy Author</span></div>
+          <div class="author">
+            <strong>Amara Ellison</strong>
+            <span>Indie Fantasy Author</span>
+          </div>
         </div>
         <div class="testimonial reveal reveal--delay-1">
           <p>"The cinematic quality made my thriller look like a Netflix release. Absolutely worth every penny."</p>
-          <div class="author"><strong>Daniel Rhodes</strong><span>Traditionally Published Novelist</span></div>
+          <div class="author">
+            <strong>Daniel Rhodes</strong>
+            <span>Traditionally Published Novelist</span>
+          </div>
         </div>
         <div class="testimonial reveal reveal--delay-2">
           <p>"I finally have marketing assets I'm proud to share. The multi-format delivery saved me weeks."</p>
-          <div class="author"><strong>Priya Nair</strong><span>Romance Author</span></div>
+          <div class="author">
+            <strong>Priya Nair</strong>
+            <span>Romance Author</span>
+          </div>
         </div>
       </div>
     </div>
@@ -872,7 +886,7 @@
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
               <div>
                 <strong>Email</strong>
-                <a href="mailto:hello@inkhousemedia.com">hello@inkhousemedia.com</a>
+                <a href="mailto:inkhousemedia@outlook.com">inkhousemedia@outlook.com</a>
               </div>
             </div>
 
