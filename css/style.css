@@ -2231,3 +2231,18 @@ body.video-modal-open { overflow: hidden; }
   .video-modal,
   .video-modal__shell { transition: none; }
 }
+@media (max-width: 720px) {
+  /* Prevent any element from causing horizontal scroll */
+  html, body { overflow-x: hidden; width: 100%; }
+  img, video, iframe { max-width: 100%; height: auto; }
+
+  /* Tighter container padding */
+  .container { padding-inline: 18px; }
+
+  /* Two-column layouts stack */
+  [style*="grid-template-columns:1fr 1fr"],
+  [style*="grid-template-columns: 1fr 1fr"] {
+    grid-template-columns: 1fr !important;
+    gap: 32px !important;
+  }
+}
